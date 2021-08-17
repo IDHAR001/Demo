@@ -1,3 +1,6 @@
 docker build -f JenkinsDemo1/Dockerfile -t idhar01/jenkins:1.0 JenkinsDemo1
 docker push idhar01/jenkins:1.0
 docker pull idhar01/jenkins:1.0 
+git add 提交到暂缓区
+git commit  提交到本地
+git push  上传到github
